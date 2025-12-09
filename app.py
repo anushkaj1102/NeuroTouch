@@ -171,10 +171,20 @@ with tabs[4]:
     img_col1, img_col2 = st.columns(2)
 
     with img_col1:
-        st.image("images/glove_imageI.png", caption="Completed Glove – View 1", use_container_width=True)
+        st.image(
+            "images/glove_imageI.png",
+            caption="Completed Glove – View 1",
+            width=400,
+            use_container_width=False
+        )
 
     with img_col2:
-        st.image("images/glove_imageII.png", caption="Completed Glove – View 2", use_container_width=True)
+        st.image(
+            "images/glove_imageII.png",
+            caption="Completed Glove – View 2",
+            width=400,
+            use_container_width=False
+        )
 
 
 # ===========================
