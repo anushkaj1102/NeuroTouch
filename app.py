@@ -164,27 +164,32 @@ with tabs[4]:
     st.markdown("---")
 
     # -------------------------------
-    # THREE IMAGES — NICE LAYOUT
+    # FORCE IMAGES TO 400×400 WITH CSS
     # -------------------------------
+    st.markdown("""
+        <style>
+        .fixed-img-container img {
+            width: 400px !important;
+            height: 400px !important;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
     st.subheader("Prototype & Actual Build")
 
     img_col1, img_col2 = st.columns(2)
 
     with img_col1:
-        st.image(
-            "images/glove_imageI.png",
-            caption="Completed Glove – View 1",
-            width=400,
-            use_container_width=False
-        )
+        st.markdown("<div class='fixed-img-container'>", unsafe_allow_html=True)
+        st.image("images/glove_imageI.png", caption="Completed Glove – View 1")
+        st.markdown("</div>", unsafe_allow_html=True)
 
     with img_col2:
-        st.image(
-            "images/glove_imageII.png",
-            caption="Completed Glove – View 2",
-            width=400,
-            use_container_width=False
-        )
+        st.markdown("<div class='fixed-img-container'>", unsafe_allow_html=True)
+        st.image("images/glove_imageII.png", caption="Completed Glove – View 2")
+        st.markdown("</div>", unsafe_allow_html=True)
 
 
 # ===========================
