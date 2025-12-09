@@ -164,14 +164,14 @@ with tabs[4]:
     st.markdown("---")
 
     # -------------------------------
-    # FORCE IMAGES TO 400×400 WITH CSS
+    # FORCE IMAGES TO EXACT 400×400
     # -------------------------------
     st.markdown("""
         <style>
         .fixed-img-container img {
             width: 400px !important;
             height: 400px !important;
-            object-fit: cover;
+            object-fit: cover !important;
             border-radius: 10px;
         }
         </style>
