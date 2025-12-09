@@ -17,8 +17,8 @@ st.subheader("A compact tactile-feedback system for restoring touch awareness")
 
 st.markdown("### Team Members")
 st.markdown("""
+- **Anushka Jain**   
 - **Ananya Shivarama Bhat**  
-- **Anushka Jain**  
 - **Devanshi Kalpeshbhai Patel**  
 """)
 
