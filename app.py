@@ -183,12 +183,12 @@ with tabs[4]:
 
     with img_col1:
         st.markdown("<div class='fixed-img-container'>", unsafe_allow_html=True)
-        st.image("images/glove_imageI.png", caption="Completed Glove – View 1")
+        st.image("images/glove_image_1.jpg", caption="Completed Glove – View 1")
         st.markdown("</div>", unsafe_allow_html=True)
 
     with img_col2:
         st.markdown("<div class='fixed-img-container'>", unsafe_allow_html=True)
-        st.image("images/glove_imageII.png", caption="Completed Glove – View 2")
+        st.image("images/glove_image_2.jpg", caption="Completed Glove – View 2")
         st.markdown("</div>", unsafe_allow_html=True)
 
 
