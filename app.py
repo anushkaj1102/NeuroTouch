@@ -59,7 +59,7 @@ with tabs[0]:
         st.image("images/smartgloves_intro.png", width=250)
 
     # Full-width video below
-    st.video("video/intro_robot_and_human.mp4")
+    st.video("images/intro_robot_and_human.mp4")
 
     
 
